@@ -388,7 +388,7 @@ public class lab_1 {
         //! 18. Тест метода maxAbs
         System.out.println("Максимальное по модулю значение в массиве: " + maxAbs(mainArr) + "\n");
 
-        //! 19. Тест ИСПРАВЛЕННОГО метода add_x (вставка ОДНОГО элемента)
+        //! 19. Тест метода add (вставка одного элемента)
         System.out.println("--- Подготовка данных для add_x (вставка одного элемента) ---");
         System.out.println("Создаем базовый массив:");
         int[] baseArrForX = readArray(in);
@@ -410,7 +410,7 @@ public class lab_1 {
         int[] resAddX = add(baseArrForX, elementX, posForX);
         System.out.println("Результат add_x: " + Arrays.toString(resAddX) + "\n");
 
-        //! 20. Тест метода add_mass (вставка МАССИВА)
+        //! 20. Тест метода add_mass (вставка массива)
         System.out.println("--- Подготовка массивов для add_mass (вставка массива) ---");
         System.out.println("Создаем базовый массив:");
         int[] baseArr = readArray(in);
